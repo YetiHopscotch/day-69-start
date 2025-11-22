@@ -31,7 +31,7 @@ app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY')
 ckeditor = CKEditor(app)
 Bootstrap5(app)
 
-# For adding profile images to the comment section
+# For adding profile images to the comment sections
 gravatar = Gravatar(app,
                     size=100,
                     rating='g',
